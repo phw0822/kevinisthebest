@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Character Creator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-panel">
+        <div class="character">
+          <img
+            id="character-eyes"
+            src="img/eyes1.png"
+            alt="Character Eyes"
+            class="character-part"
+          />
+          <img
+            id="character-hair"
+            src="img/hair1.png"
+            alt="Character Hair"
+            class="character-part"
+          />
+          <img
+            id="character-body"
+            src="img/apricot_medium.png"
+            alt="Character Body"
+            class="character-part"
+          />
+        </div>
+      </div>
+
+      <div class="right-panel">
+        <div class="option-tabs">
+          <button class="tab active" data-target="eyes-options">
+            Eyes color
+          </button>
+          <button class="tab" data-target="height-options">Height</button>
+          <button class="tab" data-target="hair-options">Hair color</button>
+          <button class="tab" data-target="body-options">Human race</button>
+        </div>
+
+        <div class="options-content">
+          <div id="eyes-options" class="options-grid active">
+            <div class="option-item">
+              <img src="img/dna1.png" alt="DNA" class="icon" />
+              <span>Black Eyes</span>
+            </div>
+            <div class="option-item">
+              <img src="img/dna2.png" alt="DNA" class="icon" />
+              <span>Green Eyes</span>
+            </div>
+            <div class="option-item">
+              <img src="img/dna3.png" alt="DNA" class="icon" />
+              <span>Blue Eyes</span>
+            </div>
+            <div class="option-item">
+              <img src="img/dna4.png" alt="DNA" class="icon" />
+              <span>Gray Eyes</span>
+            </div>
+            <div class="option-item">
+              <img src="img/dna5.png" alt="DNA" class="icon" />
+              <span>Yellow Eyes</span>
+            </div>
+          </div>
+
+          <div id="height-options" class="options-grid">
+            <div class="option-item">
+              <img src="img/dna1.png" alt="DNA" class="icon" />
+              <span>High</span>
+            </div>
+            <div class="option-item">
+              <img src="img/dna2.png" alt="DNA" class="icon" />
+              <span>Medium</span>
+            </div>
+            <div class="option-item">
+              <img src="img/dna3.png" alt="DNA" class="icon" />
+              <span>Short</span>
+            </div>
+          </div>
+
+          <div id="hair-options" class="options-grid">
+            <div class="option-item">
+              <img src="img/dna1.png" alt="DNA" class="icon" />
+              <span>White Hair</span>
+            </div>
+            <div class="option-item">
+              <img src="img/dna2.png" alt="DNA" class="icon" />
+              <span>Black Hair</span>
+            </div>
+            <div class="option-item">
+              <img src="img/dna3.png" alt="DNA" class="icon" />
+              <span>Brown Hair</span>
+            </div>
+            <div class="option-item">
+              <img src="img/dna4.png" alt="DNA" class="icon" />
+              <span>Blonde Hair</span>
+            </div>
+          </div>
+
+          <div id="body-options" class="options-grid">
+            <div class="option-item">
+              <img src="img/dna1.png" alt="DNA" class="icon" />
+              <span>Black</span>
+            </div>
+            <div class="option-item">
+              <img src="img/dna2.png" alt="DNA" class="icon" />
+              <span>Apricot</span>
+            </div>
+            <div class="option-item">
+              <img src="img/dna3.png" alt="DNA" class="icon" />
+              <span>White</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribute">
+      <div class="attribute-panel">
+        <div class="attribute-box">
+          <h3>Eyes</h3>
+          <div class="attribute-content"></div>
+        </div>
+        <div class="attribute-box">
+          <h3>Height</h3>
+          <div class="attribute-content"></div>
+        </div>
+        <div class="attribute-box">
+          <h3>Hair</h3>
+          <div class="attribute-content"></div>
+        </div>
+        <div class="attribute-box">
+          <h3>Human race</h3>
+          <div class="attribute-content"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
